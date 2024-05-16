@@ -53,24 +53,6 @@ class _MyAppState extends State<MyApp> {
   bool? isChangeTheme = false;
 
   @override
-  void initState() {
-    checkFirstSeen();
-    super.initState();
-  }
-
-  Future<void> checkFirstSeen() async {
-    // SharedPreferences prefs = await SharedPreferences.getInstance();
-    // bool? seen = prefs.getBool('seenOnboarding');
-    // setState(() {
-    //   showOnboarding = seen ?? true;
-    // });
-
-    // if (seen == null) {
-    //   await prefs.setBool('seenOnboarding', showOnboarding!);
-    // }
-  }
-
-  @override
   Widget build(BuildContext context) {
     return MultiBlocProvider(
       providers: [
@@ -86,7 +68,6 @@ class _MyAppState extends State<MyApp> {
           setState(() {
             isChangeTheme = state.isTheme;
           });
-          // Перестройка виджета после изменения темы
           setState(() {});
         } else if (state is StylesChanged) {
           setState(() {
@@ -94,16 +75,11 @@ class _MyAppState extends State<MyApp> {
           });
         }
       }, builder: (context, state) {
-        // BlocProvider.of<StylesBloc>(context).add(GetStylesEvent());
         return MaterialApp(
             title: 'Alfa MON Track finance & rate',
             debugShowCheckedModeBanner: false,
             theme: Styles.themeData(context, !isChangeTheme!),
             routes: Routes.get(context),
-          
-            // home: showOnboarding == true
-            //     ? const OnboardingScreen()
-            //     : const MainPageWidget(),
             );
       }),
     );
@@ -122,15 +98,6 @@ Future<void> _initApp() async {
   try {
     await Firebase.initializeApp(
         options: DefaultFirebaseOptions.currentPlatform);
-    print('success firebase init');
-    // Initialize RemoteConfigService and wait for it to complete
-    // final remoteConfigService = RemoteConfigService();
-    // await remoteConfigService.init();
-
-    // Fetch API key from Remote Config
-    // remoteConfigService.getString(ConfigKey.newsApiKey);
-
-    // Set up error handling
     FlutterError.onError = (errorDetails) {
       FirebaseCrashlytics.instance.recordFlutterFatalError(errorDetails);
     };
