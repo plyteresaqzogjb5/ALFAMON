@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:pp_14_copy/feature/app/main_page.dart';
-import 'package:pp_14_copy/feature/services/network_service.dart';
+import 'package:alfamon/feature/app/main_page.dart';
+import 'package:alfamon/feature/services/network_service.dart';
 
 class NoConnectionView extends StatelessWidget {
   NoConnectionView({super.key});

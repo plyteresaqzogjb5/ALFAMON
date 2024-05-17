@@ -4,11 +4,11 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:intl/intl.dart';
-import 'package:pp_14_copy/common/components/fields/number_fields.dart';
+import 'package:alfamon/common/components/fields/number_fields.dart';
 
-import 'package:pp_14_copy/common/styles/const_theme/size.dart';
-import 'package:pp_14_copy/feature/app/currency/pages/currency_page.dart';
-import 'package:pp_14_copy/feature/app/main_page.dart';
+import 'package:alfamon/common/styles/const_theme/size.dart';
+import 'package:alfamon/feature/app/currency/pages/currency_page.dart';
+import 'package:alfamon/feature/app/main_page.dart';
 
 
 class ManualFourPage extends StatefulWidget {

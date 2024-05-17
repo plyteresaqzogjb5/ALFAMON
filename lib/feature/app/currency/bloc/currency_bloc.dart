@@ -1,9 +1,9 @@
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:pp_14_copy/common/models/coin.dart';
-import 'package:pp_14_copy/common/types/failures.dart';
-import 'package:pp_14_copy/feature/data/currency/currency_usecase.dart';
-import 'package:pp_14_copy/feature/services/injection.dart';
+import 'package:alfamon/common/models/coin.dart';
+import 'package:alfamon/common/types/failures.dart';
+import 'package:alfamon/feature/data/currency/currency_usecase.dart';
+import 'package:alfamon/feature/services/injection.dart';
 
 part 'currency_event.dart';
 part 'currency_state.dart';

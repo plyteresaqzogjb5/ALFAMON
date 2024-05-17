@@ -1,8 +1,8 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:pp_14_copy/common/models/news.dart';
-import 'package:pp_14_copy/common/styles/const_theme/size.dart';
+import 'package:alfamon/common/models/news.dart';
+import 'package:alfamon/common/styles/const_theme/size.dart';
 
 class DetailNewsWidget extends StatelessWidget {
   final News? data;

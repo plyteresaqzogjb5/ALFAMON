@@ -2,11 +2,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:pp_14_copy/common/helpers/show_custom_snack_bar.dart';
-import 'package:pp_14_copy/common/models/coin.dart';
+import 'package:alfamon/common/helpers/show_custom_snack_bar.dart';
+import 'package:alfamon/common/models/coin.dart';
 
-import 'package:pp_14_copy/common/styles/const_theme/size.dart';
-import 'package:pp_14_copy/feature/app/currency/bloc/currency_bloc.dart';
+import 'package:alfamon/common/styles/const_theme/size.dart';
+import 'package:alfamon/feature/app/currency/bloc/currency_bloc.dart';
 
 // ignore: must_be_immutable
 class CurrencyPageWidget extends StatefulWidget {

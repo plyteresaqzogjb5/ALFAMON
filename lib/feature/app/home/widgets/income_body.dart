@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:pp_14_copy/common/models/expence.dart';
-import 'package:pp_14_copy/feature/app/home/pages/add_page.dart';
-import 'package:pp_14_copy/feature/app/home/widgets/card_container.dart';
-import 'package:pp_14_copy/feature/app/home/widgets/card_names.dart';
-import 'package:pp_14_copy/feature/app/home/widgets/card_widget.dart';
+import 'package:alfamon/common/models/expence.dart';
+import 'package:alfamon/feature/app/home/pages/add_page.dart';
+import 'package:alfamon/feature/app/home/widgets/card_container.dart';
+import 'package:alfamon/feature/app/home/widgets/card_names.dart';
+import 'package:alfamon/feature/app/home/widgets/card_widget.dart';
 
 const TypeBalance _typeBalance = TypeBalance.income;
 

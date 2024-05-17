@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:pp_14_copy/feature/app/main_page.dart';
+import 'package:alfamon/feature/app/main_page.dart';
 
 class ConfirmationDialog extends StatelessWidget {
   final Function() onPressed;

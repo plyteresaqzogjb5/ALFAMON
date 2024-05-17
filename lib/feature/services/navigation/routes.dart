@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:pp_14_copy/feature/app/currency/pages/currency_page.dart';
-import 'package:pp_14_copy/feature/app/main_page.dart';
-import 'package:pp_14_copy/feature/app/news/pages/news_page.dart';
-import 'package:pp_14_copy/feature/app/no_connection.dart';
-import 'package:pp_14_copy/feature/app/onboring/onb_page.dart';
-import 'package:pp_14_copy/feature/app/settings/pages/contact_us_page.dart';
-import 'package:pp_14_copy/feature/app/settings/pages/privacy_page.dart';
-import 'package:pp_14_copy/feature/app/settings/pages/terms_page.dart';
-import 'package:pp_14_copy/feature/app/splash.dart';
+import 'package:alfamon/feature/app/currency/pages/currency_page.dart';
+import 'package:alfamon/feature/app/main_page.dart';
+import 'package:alfamon/feature/app/news/pages/news_page.dart';
+import 'package:alfamon/feature/app/no_connection.dart';
+import 'package:alfamon/feature/app/onboring/onb_page.dart';
+import 'package:alfamon/feature/app/settings/pages/contact_us_page.dart';
+import 'package:alfamon/feature/app/settings/pages/privacy_page.dart';
+import 'package:alfamon/feature/app/settings/pages/terms_page.dart';
+import 'package:alfamon/feature/app/splash.dart';
 
 import 'route_names.dart';
 

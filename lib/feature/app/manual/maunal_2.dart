@@ -3,15 +3,15 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:intl/intl.dart';
-import 'package:pp_14_copy/common/models/expence.dart';
-import 'package:pp_14_copy/common/styles/const_theme/size.dart';
-import 'package:pp_14_copy/feature/app/home/widgets/card_names.dart';
-import 'package:pp_14_copy/feature/app/home/widgets/home_widgets/balance_line.dart';
-import 'package:pp_14_copy/feature/app/home/widgets/home_widgets/calendar_row.dart';
-import 'package:pp_14_copy/feature/app/home/widgets/home_widgets/my_balanced.dart';
-import 'package:pp_14_copy/feature/app/home/widgets/home_widgets/row_expence_income.dart';
-import 'package:pp_14_copy/feature/app/manual/confrim_widget.dart';
-import 'package:pp_14_copy/feature/app/manual/maunal_3.dart';
+import 'package:alfamon/common/models/expence.dart';
+import 'package:alfamon/common/styles/const_theme/size.dart';
+import 'package:alfamon/feature/app/home/widgets/card_names.dart';
+import 'package:alfamon/feature/app/home/widgets/home_widgets/balance_line.dart';
+import 'package:alfamon/feature/app/home/widgets/home_widgets/calendar_row.dart';
+import 'package:alfamon/feature/app/home/widgets/home_widgets/my_balanced.dart';
+import 'package:alfamon/feature/app/home/widgets/home_widgets/row_expence_income.dart';
+import 'package:alfamon/feature/app/manual/confrim_widget.dart';
+import 'package:alfamon/feature/app/manual/maunal_3.dart';
 
 class ManualSecondPage extends StatefulWidget {
   const ManualSecondPage({super.key});

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pp_14_copy/common/styles/const_theme/colors.dart';
+import 'package:alfamon/common/styles/const_theme/colors.dart';
 
 class OneOnboardingPage extends StatelessWidget {
   const OneOnboardingPage({super.key});

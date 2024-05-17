@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:pp_14_copy/common/styles/const_theme/colors.dart';
-import 'package:pp_14_copy/feature/app/main_page.dart';
-import 'package:pp_14_copy/feature/app/onboring/onb_1.dart';
-import 'package:pp_14_copy/feature/app/onboring/onb_2.dart';
-import 'package:pp_14_copy/feature/app/onboring/onb_3.dart';
+import 'package:alfamon/common/styles/const_theme/colors.dart';
+import 'package:alfamon/feature/app/main_page.dart';
+import 'package:alfamon/feature/app/onboring/onb_1.dart';
+import 'package:alfamon/feature/app/onboring/onb_2.dart';
+import 'package:alfamon/feature/app/onboring/onb_3.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class OnboardingScreen extends StatefulWidget {

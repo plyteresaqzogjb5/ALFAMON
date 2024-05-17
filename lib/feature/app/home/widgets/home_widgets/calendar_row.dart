@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:pp_14_copy/feature/app/manual/maunal_main.dart';
+import 'package:alfamon/feature/app/manual/maunal_main.dart';
 
 class CalendarRowWidgets extends StatelessWidget {
   final Function() onPressedCalendar;

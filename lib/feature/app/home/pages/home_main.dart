@@ -6,15 +6,15 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:intl/intl.dart';
 
-import 'package:pp_14_copy/common/models/balance.dart';
-import 'package:pp_14_copy/common/styles/const_theme/size.dart';
-import 'package:pp_14_copy/feature/app/home/home_bloc/home_bloc.dart';
-import 'package:pp_14_copy/feature/app/home/pages/main_experence_income.dart';
-import 'package:pp_14_copy/feature/app/home/widgets/home_widgets/balance_line.dart';
-import 'package:pp_14_copy/feature/app/home/widgets/home_widgets/calendar_row.dart';
-import 'package:pp_14_copy/feature/app/home/widgets/home_widgets/my_balanced.dart';
-import 'package:pp_14_copy/feature/app/home/widgets/home_widgets/not_avialable.dart';
-import 'package:pp_14_copy/feature/app/home/widgets/home_widgets/row_expence_income.dart';
+import 'package:alfamon/common/models/balance.dart';
+import 'package:alfamon/common/styles/const_theme/size.dart';
+import 'package:alfamon/feature/app/home/home_bloc/home_bloc.dart';
+import 'package:alfamon/feature/app/home/pages/main_experence_income.dart';
+import 'package:alfamon/feature/app/home/widgets/home_widgets/balance_line.dart';
+import 'package:alfamon/feature/app/home/widgets/home_widgets/calendar_row.dart';
+import 'package:alfamon/feature/app/home/widgets/home_widgets/my_balanced.dart';
+import 'package:alfamon/feature/app/home/widgets/home_widgets/not_avialable.dart';
+import 'package:alfamon/feature/app/home/widgets/home_widgets/row_expence_income.dart';
 
 class HomeMainWidget extends StatefulWidget {
   final bool? manual;

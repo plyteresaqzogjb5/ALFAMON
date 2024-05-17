@@ -1,8 +1,8 @@
-import 'package:pp_14_copy/common/models/balance.dart';
-import 'package:pp_14_copy/common/types/failures.dart';
+import 'package:alfamon/common/models/balance.dart';
+import 'package:alfamon/common/types/failures.dart';
 import 'package:dartz/dartz.dart';
-import 'package:pp_14_copy/feature/data/balance/balance_datasoruce.dart';
-import 'package:pp_14_copy/feature/services/injection.dart';
+import 'package:alfamon/feature/data/balance/balance_datasoruce.dart';
+import 'package:alfamon/feature/services/injection.dart';
 
 class BalanceRepository {
   final BalanceDataSource insertHelper = sl.get<BalanceDataSource>();

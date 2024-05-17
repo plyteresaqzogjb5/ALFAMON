@@ -1,8 +1,8 @@
-import 'package:pp_14_copy/common/models/news.dart';
-import 'package:pp_14_copy/common/types/failures.dart';
+import 'package:alfamon/common/models/news.dart';
+import 'package:alfamon/common/types/failures.dart';
 import 'package:dartz/dartz.dart';
-import 'package:pp_14_copy/feature/data/news/news_datasoruce.dart';
-import 'package:pp_14_copy/feature/services/injection.dart';
+import 'package:alfamon/feature/data/news/news_datasoruce.dart';
+import 'package:alfamon/feature/services/injection.dart';
 
 class NewsRepository {
   final NewsDataSource newsDataSource = sl.get<NewsDataSource>();

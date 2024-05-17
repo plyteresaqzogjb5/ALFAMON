@@ -1,10 +1,10 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 
-import 'package:pp_14_copy/common/models/news.dart';
-import 'package:pp_14_copy/common/types/failures.dart';
-import 'package:pp_14_copy/feature/services/injection.dart';
-import 'package:pp_14_copy/feature/services/remote_config_service.dart';
+import 'package:alfamon/common/models/news.dart';
+import 'package:alfamon/common/types/failures.dart';
+import 'package:alfamon/feature/services/injection.dart';
+import 'package:alfamon/feature/services/remote_config_service.dart';
 
 class NewsDataSource {
   final _remoteConfigService = sl.get<RemoteConfigService>();

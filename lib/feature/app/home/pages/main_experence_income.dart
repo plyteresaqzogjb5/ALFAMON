@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:pp_14_copy/common/styles/const_theme/size.dart';
-import 'package:pp_14_copy/feature/app/home/widgets/expence_body.dart';
-import 'package:pp_14_copy/feature/app/home/widgets/income_body.dart';
+import 'package:alfamon/common/styles/const_theme/size.dart';
+import 'package:alfamon/feature/app/home/widgets/expence_body.dart';
+import 'package:alfamon/feature/app/home/widgets/income_body.dart';
 
 class MainExpenseIncomeWidget extends StatefulWidget {
   const MainExpenseIncomeWidget({super.key});

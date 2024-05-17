@@ -6,11 +6,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:get_it/get_it.dart';
-import 'package:pp_14_copy/common/helpers/dialog_helper.dart';
-import 'package:pp_14_copy/feature/app/main_page.dart';
-import 'package:pp_14_copy/feature/app/onboring/onb_page.dart';
-import 'package:pp_14_copy/feature/app/settings/pages/privacy_page.dart';
-import 'package:pp_14_copy/feature/services/remote_config_service.dart';
+import 'package:alfamon/common/helpers/dialog_helper.dart';
+import 'package:alfamon/feature/app/main_page.dart';
+import 'package:alfamon/feature/app/onboring/onb_page.dart';
+import 'package:alfamon/feature/app/settings/pages/privacy_page.dart';
+import 'package:alfamon/feature/services/remote_config_service.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:in_app_review/in_app_review.dart';
 

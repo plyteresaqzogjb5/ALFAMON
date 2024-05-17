@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:pp_14_copy/feature/app/currency/pages/currency_page.dart';
-import 'package:pp_14_copy/feature/app/home/pages/home_main.dart';
-import 'package:pp_14_copy/feature/app/news/pages/news_page.dart';
-import 'package:pp_14_copy/feature/app/settings/pages/settings_page.dart';
+import 'package:alfamon/feature/app/currency/pages/currency_page.dart';
+import 'package:alfamon/feature/app/home/pages/home_main.dart';
+import 'package:alfamon/feature/app/news/pages/news_page.dart';
+import 'package:alfamon/feature/app/settings/pages/settings_page.dart';
 
 class MainPageWidget extends StatefulWidget {
   const MainPageWidget({super.key});

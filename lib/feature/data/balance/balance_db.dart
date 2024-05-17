@@ -1,6 +1,6 @@
 import 'package:hive/hive.dart';
 
-import 'package:pp_14_copy/common/models/balance.dart';
+import 'package:alfamon/common/models/balance.dart';
 
 class BalanceAdapter extends TypeAdapter<Balance> {
   @override

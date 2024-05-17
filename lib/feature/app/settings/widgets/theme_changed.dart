@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:pp_14_copy/common/styles/bloc/styles_bloc.dart';
+import 'package:alfamon/common/styles/bloc/styles_bloc.dart';
 
 class ContainerChangedThemeWidget extends StatefulWidget {
   const ContainerChangedThemeWidget({super.key});

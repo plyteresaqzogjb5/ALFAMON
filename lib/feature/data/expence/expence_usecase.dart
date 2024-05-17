@@ -1,10 +1,10 @@
 import 'package:dartz/dartz.dart';
 import 'package:flutter/foundation.dart';
-import 'package:pp_14_copy/common/models/expence.dart';
-import 'package:pp_14_copy/common/types/failures.dart';
-import 'package:pp_14_copy/common/types/usecase.dart';
-import 'package:pp_14_copy/feature/data/expence/expence_repositories_impl.dart';
-import 'package:pp_14_copy/feature/services/injection.dart';
+import 'package:alfamon/common/models/expence.dart';
+import 'package:alfamon/common/types/failures.dart';
+import 'package:alfamon/common/types/usecase.dart';
+import 'package:alfamon/feature/data/expence/expence_repositories_impl.dart';
+import 'package:alfamon/feature/services/injection.dart';
 
 class CreateExpenceUsecase extends UseCase<void, Expence> {
   final ExpenceRepository repository = sl.get<ExpenceRepository>();

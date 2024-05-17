@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
-import 'package:pp_14_copy/common/styles/const_theme/size.dart';
+import 'package:alfamon/common/styles/const_theme/size.dart';
 
 class TermsPagesWidget extends StatelessWidget {
   final String termsText = '''

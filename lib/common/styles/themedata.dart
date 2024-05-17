@@ -1,6 +1,6 @@
 import 'package:google_fonts/google_fonts.dart';
-import 'package:pp_14_copy/common/styles/const_theme/colors.dart';
-import 'package:pp_14_copy/common/styles/const_theme/size.dart';
+import 'package:alfamon/common/styles/const_theme/colors.dart';
+import 'package:alfamon/common/styles/const_theme/size.dart';
 import 'package:flutter/material.dart';
 
 class Styles {

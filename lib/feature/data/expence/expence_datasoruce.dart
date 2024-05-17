@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:hive/hive.dart';
-import 'package:pp_14_copy/common/models/balance.dart';
-import 'package:pp_14_copy/common/models/expence.dart';
+import 'package:alfamon/common/models/balance.dart';
+import 'package:alfamon/common/models/expence.dart';
 
 class ExpenceDataSource {
   static final ExpenceDataSource _instance = ExpenceDataSource._internal();

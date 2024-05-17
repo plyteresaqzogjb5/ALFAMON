@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 
-import 'package:pp_14_copy/common/models/coin.dart';
+import 'package:alfamon/common/models/coin.dart';
 
 class CurrencyDataSource {
   Future<List<Coin>> getListCuurency() async {
