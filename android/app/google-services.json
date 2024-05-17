@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "517514199913",
+    "project_id": "finappdualsaver14",
+    "storage_bucket": "finappdualsaver14.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517514199913:android:0b0b696b78ebf5375933f8",
+        "android_client_info": {
+          "package_name": "com.example.alfamon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpj_Fqa3-j1kaniE1r3MFkfBRDYyqGvCE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
